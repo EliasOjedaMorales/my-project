@@ -8,7 +8,7 @@ export default function HeroSection () {
     <section id='home'>
       <div className='flex flex-col text-center items-center justify-center my-10 py-32 md:flex-row md:space-x-4 md:text-left md:py-52 sm:py-32'>
         <div className='md:w-1/2 md:mt-2'>
-          <Image className='rounded-full shadow-2xl w-auto h-auto' priority={true} src='/robotposando.jpg' alt='Es un robot to fachero' width={300} height={200} />
+          <Image className='rounded-full shadow-2xl w-auto h-auto' priority src='/robotposando.jpg' alt='Es un robot to fachero' width={300} height={200} />
         </div>
         <div className='md:mt-2 md:w-3/5'>
           <h1 className='font-bold text-3xl mt-6 md:text-7xl'>¡Hola!, Soy <span className='font-semibold dark:text-[#efcd30] text-amber-500'>Elias Gabriel</span></h1>

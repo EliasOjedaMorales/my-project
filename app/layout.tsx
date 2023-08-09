@@ -18,7 +18,7 @@ export default function RootLayout ({
     <html lang='en'>
       <Head />
       <body className={`dark:bg-[#343f50] bg-slate-100 ${inter.className}`}>
-        <ThemeProvider enableSystem={true} attribute='class'>
+        <ThemeProvider enableSystem attribute='class'>
           <Navbar />
           {children}
           <Footer />
