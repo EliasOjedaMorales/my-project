@@ -6,7 +6,7 @@ import SlideUp from './SlideUp'
 
 const projects = [
   {
-    name: 'El pibe de darker than black',
+    name: 'Weather app',
     description: 'Busca el clima actual y el de las proximas 30 horas de la ciudad deseada, la ciudad debe tener un poblacion mayor a 1 millon de habitantes',
     image: '/weatherAPP.png',
     github: 'https://github.com/EliasOjedaMorales/weather-app/',
