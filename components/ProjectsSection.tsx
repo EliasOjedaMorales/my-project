@@ -7,27 +7,19 @@ import SlideUp from './SlideUp'
 const projects = [
   {
     name: 'El pibe de darker than black',
-    description:
-      'Es un anime de un pibe que vende churros debajo del puente gallego, eventualmente se convierte en el dueño de una restaurant con 2 estrellas michelin',
-    image: '/fotito.png',
-    github: 'https://github.com/',
-    link: 'https://youtube.com/'
+    description: 'Busca el clima actual y el de las proximas 30 horas de la ciudad deseada, la ciudad debe tener un poblacion mayor a 1 millon de habitantes',
+    image: '/weatherAPP.png',
+    github: 'https://github.com/EliasOjedaMorales/weather-app/',
+    link: 'https://elclimademiciudad.vercel.app/'
   },
   {
-    name: 'Nieve fria',
-    description: 'Es nieve tan fria que la gente toma helado para calentarse cuando estan por ahi.',
+    name: 'Esos es todo....¡¡Por ahora!! ',
+    description: 'Esas son las apps desplegadas, mientras tanto mira este hermosos paisaje.',
     image: '/Nieve.jpg',
-    github: 'https://github.com/',
-    link: 'https://steam.com'
-  },
-  {
-    name: 'El robot facha tirando facha de la buena',
-    description:
-      'Es un robot to facha que no deja de impresionar la facha que trafica.',
-    image: '/robotposando.jpg',
-    github: 'https://github.com/',
-    link: 'https://epicgames.com'
+    github: 'https://github.com/EliasOjedaMorales/mi-primer-app/blob/main/public/Nieve.jpg',
+    link: 'https://egom.vercel.app/_next/image?url=%2FNieve.jpg&w=1080&q=75'
   }
+
 ]
 
 export default function ProjectsSection () {

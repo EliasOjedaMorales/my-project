@@ -1,5 +1,4 @@
 'use client'
-
 import React, { useEffect, useRef, ReactNode } from 'react'
 interface Props {
   offset?: string

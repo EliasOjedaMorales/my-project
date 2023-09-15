@@ -37,7 +37,7 @@ export default function Navbar () {
         <div>
           <div className='flex items-center justify-between py-3'>
             <div>
-              <Image src='/logoWix.jpg' alt='logo EGOM' width={100} height={100} className='rounded-3xl' />
+              <Link to='home' smooth offset={-100} duration={500} className='hover:cursor-pointer'><Image src='/logoWix.jpg' alt='logo EGOM' width={100} height={100} className='rounded-3xl' /></Link>
             </div>
             <div className='md:hidden'>
               <button onClick={() => setNavbar(!navbar)}>
